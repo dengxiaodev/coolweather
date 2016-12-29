@@ -20,14 +20,30 @@
         android:textColor="#fff"
         android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/title_update_time"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="10dp"
-        android:textColor="#fff"
-        android:textSize="16sp" />
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/title_update_time"
+            android:text="最近更新:"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/title_update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+    </LinearLayout>
+
 
 </RelativeLayout>
