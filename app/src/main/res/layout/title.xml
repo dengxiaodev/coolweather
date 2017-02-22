@@ -25,24 +25,24 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
-        android:layout_marginRight="8dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/title_update_time"
-            android:text="最近更新:"
-            android:textColor="#fff"
-            android:textSize="14sp" />
+        android:layout_marginRight="8dp">
 
         <TextView
             android:id="@+id/title_update_time"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:layout_marginRight="2dp"
+            android:textSize="17sp" />
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_above="@+id/title_update_time"
+            android:text="发布"
             android:textColor="#fff"
-            android:textSize="16sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
 
